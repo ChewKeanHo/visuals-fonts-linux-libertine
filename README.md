@@ -98,6 +98,38 @@ All fonts **MUST** be strictly licensed under
 license terms arbitrarily without taking its legal consequences into account.
 Hence, **DO NOT** commit those fonts.
 
+For software supply chain, to guarentee the thumbnail generation **IS NOT**
+vendor-locked by any expensive or proprietary software, please **ONLY USE AND
+SUPPORT** open source image editing software specifically as follows:
+
+* **Inkscape (https://inkscape.org)** - for vector graphics maintenances and
+  exporting SVG plain vector files.
+
+For directory organizations:
+
+* The principal canvas **MUST BE SAVED** in `inkscape SVG format` and retain all
+  legal attributes (license, copyright, etc). The files **MUST HAVE**
+  `inkscape-` prefixes to avoid confusion. They are saved inside
+  `/Pictures/principal-canvas` directory.
+* The exported svg **MUST BE IN** `Plain SVG format` and retain all legal
+  attributes (license, copright, etc). The files **MUST NOT HAVE** `inkscape-`
+  prefixes. They are saved inside `/Pictures` directory.
+* The exported svg's text fields **MUST BE** converted into `path` data type
+  and then `union` into a single `foreground` path layer. This is to make sure
+  end-user can view the sample without needing to pre-setup the font files.
+
+For artificial intelligence:
+
+* **ONLY USE** for internal research or Internet searches internally.
+* **Any automated or "vibe" output commitments are STRICTLY PROHIBITED**.
+  * This is a simple artifact re-distribution project. **DO NOT LET ANY** A.I.
+    near any of your code and files commitment.
+  * If you sign-off any A.I. commitment, **YOU WILL BE HELD FULLY LIABLE FOR
+    ALL ITS CONCEQUENCES**.
+  * Therefore: **STRICTLY HUMAN COMMITMENT**.
+* **Use of passive A.I. (e.g. image upscaling) is rare to none** since
+  the thumbnail graphic materials **MUST** be in its vectorized form.
+
 
 
 
